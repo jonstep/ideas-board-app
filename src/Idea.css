@@ -1,0 +1,82 @@
+.idea {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+  display: block;
+  float: left;
+  height: 150px;
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  width: 150px;
+}
+
+input.ideaTitle,
+textarea.ideaBody {
+  background-color: transparent;
+  color: #545e5a;
+  border: none;
+  resize: none;
+  padding: 5px;
+  border: 1px solid transparent;
+  text-align: left;
+}
+
+.ideaTitle {
+  font-weight: bold;
+  font-weight: 700;
+  line-height: 17px;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100px;
+}
+
+.ideaBody {
+  font-size: 12px;
+  line-height: 14px;
+  height: 90px;
+  overflow: hidden;
+  width: 138px;
+}
+
+input.ideaTitle:focus,
+textarea.ideaBody:focus {
+  border: 1px solid #ddd;
+  outline: none;
+  text-align: left;
+}
+
+
+.ideaDelete {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 12px;
+  color: #545e5a;
+  cursor: pointer;
+  display: none;
+  font-size: 17px;
+  font-weight: bold;
+  height: 24px;
+  padding: 0;
+  width: 24px;
+}
+
+.idea:hover .ideaDelete {
+  display: block;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
+
+.ideaBodyCharacterCount {
+  display: none;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ideaBody:focus+.ideaBodyCharacterCount {
+  display: block;
+}
