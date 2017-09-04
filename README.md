@@ -1,5 +1,4 @@
 # Ideas Board
-# Jon Nairn September 2017
 
 Assumes:
 - node/yarn installed and added to path ('node -v' to check node, 'yarn --version' to check yarn)
